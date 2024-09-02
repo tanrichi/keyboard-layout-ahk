@@ -14,8 +14,7 @@ CapsLock::BackSpace
 #9::F9
 #0::F10
 #-::F11
-#=::F12d asdashjdas
-asdasdas asdasdas
+#=::F12
 
 PgDn::Del
 PgUp::PgDn
@@ -42,4 +41,14 @@ Del::PgUp
 #Q:: {
   if WinExist("Visual Studio Code")
     WinActivate
+}
+
++!c:: {
+  Send "git add ."
+  Send "{Enter}"
+}
+
++!d:: {
+  Send "git commit -m `"`""
+  Send "{Left}"
 }
