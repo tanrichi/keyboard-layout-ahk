@@ -20,7 +20,4 @@ CapsLock::BackSpace
 +5::~
 +6::^
 
-PgDn::Del
-PgUp::PgDn
-Del::PgUp
-
+RShift::Del
