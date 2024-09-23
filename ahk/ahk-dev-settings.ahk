@@ -1,10 +1,10 @@
 ﻿#Requires AutoHotkey v2.0
 
-CapsLock::BackSpace
+CapsLock::Escape
 
 PgDn::Del
 
-; RShift::-
+RShift::Escape
 ; +RShift::_
 
 RAlt::`
@@ -41,9 +41,7 @@ Esc::+
 }
 +4::4
 
-5::{
-  Send{"&"} 
-}
+5::&
 +5::5
 
 6::{
