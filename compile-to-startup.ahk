@@ -1,0 +1,11 @@
+RunWait '"C:\Program Files\AutoHotkey\Compiler\Ahk2Exe.exe"'
+  . ' /in "E:\Users\Richi\Documents\AutoHotkey\ahk-dev-settings.ahk"'
+  . ' /out "C:\Users\Richi\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\ahk-dev-settings.exe"'
+  . ' /base "C:\Program Files\AutoHotkey\v2\AutoHotkey32.exe"'
+  . ' /compress 0'
+
+RunWait '"C:\Program Files\AutoHotkey\Compiler\Ahk2Exe.exe"'
+  . ' /in "E:\Users\Richi\Documents\AutoHotkey\ahk-dev-settings.ahk"'
+  . ' /out "E:\Users\Richi\Documents\AutoHotkey\ahk-dev-settings.exe"'
+  . ' /base "C:\Program Files\AutoHotkey\v2\AutoHotkey32.exe"'
+  . ' /compress 0'
