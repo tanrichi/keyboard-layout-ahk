@@ -3,83 +3,47 @@
 CapsLock::Escape
 
 PgDn::Del
-
-RShift::Escape
-; +RShift::_
-
 RAlt::`
 +RAlt::~
 
-; ESC 1 2 3 4 5 6 7 8 9 0 - =
+; Remap number keys without Shift
+1::SendText "+"
++1::SendText "1"
 
-; +   $ [ { ( & = ) } [ * ! =
-; %   1 2 3 4 5 6 7 8 9 0 # =
+2::SendText "$"
++2::SendText "2"
 
-; [ -> <
-; ] -> >
+3::SendText "["
++3::SendText "3"
 
-Esc::+
-+Esc::%
+4::SendText "{"
++4::SendText "4"
 
-1::{
-  Send("$")
-}
-+1::1
+5::SendText "("
++5::SendText "5"
 
-2::{
-  Send("[")
-}
-+2::2
+6::SendText "&"
++6::SendText "6"
 
-3::{
-  Send("{")
-}
-+3::3
+7::SendText ")"
++7::SendText "7"
 
-4::{
-  Send("(")
-}
-+4::4
+8::SendText "}"
++8::SendText "8"
 
-5::&
-+5::5
+9::SendText "]"
++9::SendText "9"
 
-6::{
-  Send("*")
-}
-+6::6
+0::SendText "*"
++0::SendText "0"
 
-7::{
-  Send(")")
-}
-+7::7
+-::SendText "!"
++-::SendText "#"
 
-8::{
-  Send("}")
-}
-+8::8
++=::SendText "%"
 
-9::{
-  Send("]")
-}
-+9::9
+[::SendText "<"
+]::SendText ">"
 
-0::{
-  Send("!")
-}
-+0::0
-
-; -::-
-;+-::_
-
-; =::
-+.::+
-
-+,::@
-
-[::<
-]::>
-
-{::#
-}::^
-
+{::SendText "@"
+}::SendText "^"
